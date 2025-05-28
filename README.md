@@ -22,11 +22,7 @@ Welcome to **COLOR SPINNER** – a fun and interactive way to explore color comb
 
 ## 🖼️ Preview
 
-Here are a few screenshots of the spinner in action:
-
-![Spinner 1](./1.png)
-![Spinner 2](./2.png)
-![Spinner 3](./3.png)
+<img src="1.png" alt="Spinner 1" width="300">
 
 ## 🛠️ Technologies Used
 
