@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color spinner</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+            display: flex;
+            height: 95vh;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        #main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            user-select: none;
+            cursor: pointer;
+
+        }
+
+        #outer {
+
+            height: 300px;
+            width: 300px;
+            background-color: #000000;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #inner {
+            height: 200px;
+            width: 200px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Impact, "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+
+        }
+     
+    </style>
+
+
+
+    <div id="main">
+
+        <div id="outer">
+
+            <div id="inner">
+                COLOR SPINNER
+            </div>
+        </div>
+    </div>
+
+   
+
+</body>
+<script>
+
+    let btn = document.getElementById("inner");
+    let change = document.getElementById("outer");
+    let text = document.getElementById("inner")
+  
+    btn.addEventListener("click", colorChange)
+let str;
+    function colorChange() {
+
+        let colors = '1234567890'
+        str = '#';
+        
+        
+        for (let i = 0; i < 4; i++) {
+            
+            let randNum = Math.random() * colors.length
+            randNum = Math.floor(randNum);
+            str += colors[randNum]
+            
+        }
+        change.style.backgroundColor = str;
+        text.style.color = str;
+     
+
+     
+       
+
+
+        
+
+
+    }
+   
+
+
+
+
+</script>
+
+</html>
