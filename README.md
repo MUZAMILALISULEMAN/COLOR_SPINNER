@@ -4,7 +4,7 @@ Welcome to **COLOR SPINNER** – a fun and interactive way to explore color comb
 
 ## 🚀 Live Demo
 
-> 💡 _Host this project on GitHub Pages for an instant live demo!_
+> 💡 https://muzamilalisuleman.github.io/COLOR_SPINNER/
 
 
 ## 🖥️ How to Use
